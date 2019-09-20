@@ -14,16 +14,4 @@
  * limitations under the License.
  */
 
-import { KubeStatusCondition } from '@kui-shell/plugin-k8s'
-
-/**
- * Determine the success bit of a run element
- *
- */
-export default function success(conditions: KubeStatusCondition[]): boolean {
-  const successCondition = conditions.find(_ => _.type === 'Succeeded')
-  return (
-    successCondition &&
-    (successCondition.status === true || (successCondition.status !== false && /true/i.test(successCondition.status)))
-  )
-}
+// this file defines the external API
