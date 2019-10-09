@@ -1,9 +1,6 @@
 {
-  "extends": "../../packages/builder/tsconfig-base.json",
-  "include": ["src/**/*"],
-  "compilerOptions": {
-    "composite": true,
-    "outDir": "dist",
-    "rootDir": "src"
-  }
+  "extends": "./node_modules/@kui-shell/builder/tsconfig-base.json"
+  "references": [
+    { "path": "./plugins/plugin-tekton" }
+  ]
 }

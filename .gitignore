@@ -1,2 +1,6 @@
-dist
 build
+dist
+node_modules
+packages/app/build
+tsconfig.tsbuildinfo
+*~
