@@ -1,6 +1,6 @@
 {
   "name": "kubectl-kui",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "description": "",
   "main": "node_modules/@kui-shell/core/main/main.js",
   "scripts": {
@@ -34,8 +34,6 @@
   "dependencies": {
     "@kui-shell/core": "5.0.0",
     "@kui-shell/plugin-core-support": "5.0.0",
-    "@kui-shell/plugin-k8s": "^5.0.0",
-    "@kui-shell/plugin-tekton": "file:plugins/plugin-tekton",
-    "@kui-shell/plugin-wskflow": "^5.0.0"
+    "@kui-shell/plugin-tekton": "file:plugins/plugin-tekton"
   }
 }
